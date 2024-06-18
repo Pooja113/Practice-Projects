@@ -33,7 +33,7 @@ if(randomNumber < 0.33) {
   thirdname="store"
 
 }else {
-  thirdname="bramd"
+  thirdname="brand"
 
 }
 
