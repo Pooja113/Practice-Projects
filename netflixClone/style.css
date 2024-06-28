@@ -10,7 +10,7 @@ body{
 }
 .main {
   background-image: url("assets/images/bgimage.jpg");
-  height: 70vh;
+  height: 100vh;
   position: relative;
   background-position: center center;
   background-repeat: no-repeat;
@@ -18,10 +18,10 @@ body{
 }
 
 .main .box{
-  height: 70vh;
+  height: 100vh;
   width: 100%;
   background-color: black;
-  opacity: 0.4;
+  opacity: 0.6;
   position: absolute;
   top: 0
 
@@ -37,7 +37,7 @@ nav {
 }
 
 nav img{
-  width: 115px;
+  width: 140px;
   position: relative;
   z-index: 10;
 }
@@ -82,6 +82,44 @@ nav button{
 }
 
 .seperation {
-  height: 11px;
-  background-color: #ddd;
+  height: 7px;
+  background-color: #414040;
+}
+
+.btn {
+  padding: 4px 20px;
+  border-radius: 6px;
+
+}
+
+button.btn.banner-btn {
+  padding: 12px 45px;
+  border-radius: 6px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btn-red{
+  padding: 4px 20px;
+  border-radius: 6px;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-color: red;
+  margin: 30px;
+}
+
+.newsletter{
+  display: flex;
+}
+
+.main input{
+  padding: 15px;
+    border-radius: 6px;
+    margin-right: 10px;
+    text-align: left;
+    width: 250px;
 }
