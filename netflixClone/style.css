@@ -12,7 +12,7 @@ body {
 
 .main {
   background-image: url("assets/images/bgimage.jpg");
-  height: 100vh;
+  height: 110vh;
   position: relative;
   background-position: center center;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body {
 }
 
 .main .box {
-  height: 100vh;
+  height: 110vh;
   width: 100%;
   background-color: black;
   opacity: 0.7;
@@ -189,6 +189,7 @@ button.btn.banner-btn:hover,
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 30px 0;
 }
 
 .sectionContent :nth-child(1) {
@@ -261,4 +262,13 @@ footer {
 
 .footer-section a {
   color: rgba(255,255,255,0.7);
+}
+
+@media screen and (max-width: 1050px){
+  
+.mainsection {
+  flex-wrap: wrap;
+
+}
+
 }
