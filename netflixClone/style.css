@@ -125,9 +125,11 @@ button.btn.banner-btn {
 
 }
 
-button.btn.banner-btn:hover , .btn-red:hover {
+button.btn.banner-btn:hover,
+.btn-red:hover {
   background-color: rgb(193, 17, 25);
-  border-radius: rgb(193, 17, 25); ;
+  border-radius: rgb(193, 17, 25);
+  ;
 }
 
 .newsletter {
@@ -143,7 +145,120 @@ button.btn.banner-btn:hover , .btn-red:hover {
   text-align: left;
   width: 300px;
   background-color: rgba(23, 23, 23, 0.7);
-  border: 1px solid  rgba(243, 242, 242, 0.3);;
+  border: 1px solid rgba(243, 242, 242, 0.3);
+  ;
   font-size: 18px;
   color: rgb(221, 218, 218);
+}
+
+.mainsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: #fff;
+  max-width: 70vw;
+}
+
+.sectionImg {
+  position: relative;
+}
+
+.sectionImg img {
+  position: relative;
+  z-index: 1;
+  width: 490px;
+}
+
+.sectionImg video {
+  position: absolute;
+  top: 45px;
+  right: 15px;
+  width: 410px;
+}
+
+.third .sectionImg video {
+  top: 30px;
+  right: 95px;
+  width: 305px;
+}
+
+
+
+.sectionContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sectionContent :nth-child(1) {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.sectionContent :nth-child(2) {
+  font-size: 24px;
+}
+
+.faq {
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+.faq h1 {
+  font-size: 50px;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.faqbox {
+  display: flex;
+  font-size: 24px;
+  justify-content: space-between;
+  background-color: rgb(51, 49, 49);
+  margin: 5px;
+  padding: 25px;
+  width: 100%;
+  cursor: pointer;
+  align-items: center;
+}
+
+.faqbox:hover {
+  transition: all 3s ease-out;
+  background-color: #7e7b7b;
+}
+
+footer {
+  max-width: 74vw;
+  margin: auto;
+  color: rgba(255,255,255,0.7);
+  padding-bottom: 40px;
+}
+.questions {
+  padding: 60px 0 30px 0;
+  font-weight: bold;
+  
+}
+.questions a {
+  color: rgba(255,255,255,0.7) ;
+}
+.footer-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-section a {
+  color: rgba(255,255,255,0.7);
 }
