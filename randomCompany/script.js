@@ -34,7 +34,6 @@ if(randomNumber < 0.33) {
 
 }else {
   thirdname="brand"
-
 }
 
 console.log(`${firstname} ${secondname} ${thirdname}`)
